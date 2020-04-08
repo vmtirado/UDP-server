@@ -32665,3 +32665,13 @@
 2020-04-07 13:47:05 INFO     Hash incorrecto
 2020-04-07 13:47:20 INFO     CLIENTE Thread #0 ready to receive info
 2020-04-07 13:47:23 INFO     Hash incorrecto
+2020-04-07 17:36:52 INFO     CLIENTE Thread #0 ready to receive info
+2020-04-07 17:36:52 INFO     CLIENTE Thread #1 ready to receive info
+2020-04-07 17:36:52 INFO     CLIENTE Thread #2 ready to receive info
+2020-04-07 17:36:59 INFO     Hash incorrecto
+2020-04-07 17:36:59 INFO     Hash incorrecto
+2020-04-07 17:36:59 INFO     Hash incorrecto
+2020-04-07 19:09:04 INFO     CLIENTE Thread #0 ready to receive info
+2020-04-07 19:09:06 INFO     Hash correcto
+2020-04-07 19:12:44 INFO     CLIENTE Thread #0 ready to receive info
+2020-04-07 19:12:47 INFO     Hash incorrecto

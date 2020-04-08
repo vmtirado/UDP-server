@@ -37,8 +37,8 @@ def threaded(m,i):
 
     #Se conecta al servidor
     s.connect((host, port))
-    print("Thread #%d listo para recibir informacion",i)
-    logging.info("CLIENTE Thread #%d ready to receive info",i)
+    print("Thread #%d listo para recibir informacion" %i)
+    logging.info("CLIENTE Thread #%d ready to receive info" %i)
     s.sendto("listo".encode(),(host,port))
     #Se empieza a recibir informacion
     cont=0

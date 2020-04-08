@@ -12,7 +12,7 @@ def main():
     #Crea el servidor
     s.bind((host,port))
 
-    print("El servidor esta escuchando en el puerto %d", port)
+    print("El servidor esta escuchando en el puerto %d" %port)
     texto=int (input("\n Que texto desea enviar?"
                      "\n 1. 100 mib"
                      "\n 2. 250 mib"))
@@ -37,6 +37,7 @@ def main():
         #Crea el thread para manejar la conexion
         thread=Thread(target= start_thread, args=(s,adrr))
         thread.start()
+        cont+=1
 
 def start_thread(s,adrr):
     start_time=time.time
